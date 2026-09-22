@@ -1,11 +1,21 @@
 # 7. Print all prime numbers between 1 and 100.
 
-def is_prime_or_not(num):
-    pass
 
-print(is_prime_or_not(11))
-print(is_prime_or_not(17))
-print(is_prime_or_not(23))
-print(is_prime_or_not(15))
-print(is_prime_or_not(37))
-print(is_prime_or_not(4))
+
+def print_n_prime_num(num1, num2):
+    for num in range(num1+1, num2+1):
+        is_prime = True
+        
+        for i in range(2,int(num**0.5)+1):
+            if num%i == 0:
+                is_prime = False
+            break
+        
+        
+        if is_prime:
+            print(num, end=' ')
+        
+    
+
+print_n_prime_num(1, 100)
+# print(print_n_prime_num(17))
