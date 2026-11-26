@@ -1,0 +1,188 @@
+Arrays
+Level 1: Fundamentals of Arrays
+1. Input n and take n integers into an array; print them.
+2. Find the sum of all elements in an array.
+3. Find the average of array elements.
+4. Find the maximum element in an array.
+5. Find the minimum element in an array.
+6. Count how many elements are positive, negative, or zero.
+7. Count how many elements are even and odd.
+8. Find the index of the maximum element.
+9. Find the index of the minimum element.
+10. Take n elements and print only those greater than a given value k.
+
+Level 2: Searching & Counting Logic
+1. Input an element x — check if it exists in the array.
+2. Count how many times a given element appears.
+3. Find the first occurrence of a given number.
+4. Find the last occurrence of a given number.
+5. Check if all elements in an array are unique.
+6. Find the sum of even elements only.
+7. Find the sum of odd elements only.
+8. Find the count of prime numbers in the array.
+9. Count how many numbers are divisible by 3 and 5 both.
+10. Count how many elements are perfect squares.
+
+🟠 Level 3: Transformation & Manipulation
+1. Create a new array containing squares of all numbers.
+2. Create a new array containing only even elements.
+3. Replace every negative number with 0.
+4. Replace all even numbers with 1 and all odd with 0.
+5. Swap the first and last elements of the array.
+6. Reverse an array (without using built-in reverse).
+7. Rotate an array by one position to the left.
+8. Rotate an array by one position to the right.
+9. Swap alternate elements (1st ↔ 2nd, 3rd ↔ 4th, etc.).
+10. Copy one array to another manually.
+
+🔵 Level 4: Aggregate & Comparative Thinking
+1. Compare two arrays — check if they are equal (same elements & order).
+2. Compare two arrays — check if they contain the same elements (ignore order).
+3. Merge two arrays into a third array.
+4. Find the common elements between two arrays.
+5. Find elements that are in one array but not in the other.
+6. Count how many elements are common between two arrays.
+7. Find element-wise sum of two arrays (A[i] + B[i]).
+8. Find element-wise product of two arrays.
+9. Create a frequency array of numbers (count occurrence of each number).
+10. Print all elements that appear more than once.
+CodeWithNishchal
+🔴 Level 5: Logical & Applied Array Problems
+1. Check if the array is sorted in ascending order.
+2. Check if the array is sorted in descending order.
+3. Find the second largest element in an array.
+4. Find the second smallest element in an array.
+5. Find the difference between the largest and smallest element.
+6. Find the sum of all elements except the largest and smallest.
+7. Count how many pairs of elements have a sum equal to a given number k.
+8. Count how many elements are greater than the average of the array.
+9. Print the frequency of each distinct element.
+10. Print all unique elements (those that occur exactly once).
+
+Phase 5 – Strings (Basic Logic Building – 50 Questions)
+Category 1: Basic String Handling (10 Qs)
+1. Take a string input and print its length.
+2. Print the first and last character of a string.
+3. Convert all characters of a string to uppercase.
+4. Convert all characters of a string to lowercase.
+5. Count how many characters (excluding spaces) are in the string.
+6. Count how many words are in a sentence.
+7. Take two strings and print them concatenated.
+8. Compare two strings lexicographically (like dictionary order).
+9. Print the ASCII value of each character in a string.
+10. Check whether the string is empty or not.
+
+Category 2: Counting & Character Analysis (10 Qs)
+1. Count how many vowels and consonants are in a string.
+2. Count the number of digits, letters, and special characters in a string.
+3. Count how many uppercase and lowercase letters a string has.
+4. Find the frequency of each character in a string (without using a map).
+5. Count how many spaces are there in a sentence.
+6. Count how many times a given character appears in a string.
+7. Count how many alphabets are before ‘m’ and after ‘m’ in a given string.
+8. Count how many substrings start and end with the same character (simple logic).
+9. Print how many words start with a vowel in a sentence.
+10. Count how many words end with ‘s’.
+CodeWithNishchal
+
+Category 3: Reversing & Palindromic Thinking (10 Qs)
+1. Reverse a string without using built-in reverse.
+2. Reverse each word in a sentence.
+3. Reverse the order of words in a sentence.
+4. Check whether a string is a palindrome.
+5. Check if two strings are the reverse of each other.
+6. Print the middle character(s) of a string.
+7. Print the second half of the string in reverse.
+8. Remove the first and last character and print the remaining string.
+9. Reverse only characters, keeping digits in place.
+10. Reverse string but skip spaces.
+
+Category 4: Character & Word Manipulation (10 Qs)
+1. Remove all vowels from a string.
+2. Remove all spaces from a string.
+3. Replace all vowels with ‘*’.
+4. Replace all spaces with ‘_’.
+5. Print the string after removing all digits.
+6. Remove duplicate characters from a string.
+7. Keep only the first occurrence of each character.
+8. Remove consecutive duplicate characters (e.g., “aaabb” → “ab”).
+9. Swap case: uppercase → lowercase and lowercase → uppercase.
+10. Shift each character by  1 (e.g. abc -> bcd)
+
+Category 5: Word-level Thinking (10 Qs)
+1. Print each word of a sentence on a new line.
+2. Count how many words have even length.
+3. Find the longest word in a sentence.
+4. Find the shortest word in a sentence.
+5. Swap first and last words in a sentence.
+6. Print all words that start and end with the same letter.
+7. Count how many words contain the letter ‘a’.
+8. Capitalize the first letter of each word.
+9. Print the sentence in title case (first letter capital, rest lowercase).
+10. Remove extra spaces between words (normalize spacing).
+
+
+Phase 6 – Mixed Logical Challenges
+🎯 Goal: Strengthen logical thinking with character manipulation.
+Topics covered: char array logic, string length, substring, conditions.
+Target Questions: 30–40
+Category 1: Number-Based Logical Combinations (10 Qs)
+1. Print all numbers between 1 and N that are divisible by both 3 and 5.
+2. Find the sum of digits of a number (use loop).
+3. Check if a number is an Armstrong number.
+4. Print all Armstrong numbers between 1 and 1000.
+5. Find the factorial of a number using recursion.
+6. Count how many even digits a number contains.
+7. Print all prime numbers between 1 and N.
+8. Print the reverse of a number (123 → 321).
+9. Check if a number is palindrome (121 → true).
+10. Check if a number is perfect (sum of factors equals number).
+
+Category 2: String + Logic Mix (10 Qs)
+1. Check if two strings are anagrams (without using collections).
+2. Count vowels in each word of a sentence.
+3. Reverse words in a string if their length is even.
+4. Replace every vowel in a string with its position (a=1, e=2...).
+5. Print characters that appear more than once (without map).
+6. Count words that start and end with the same letter.
+7. Toggle case for every alternate word in a sentence.
+8. Check if two strings are rotations of each other.
+9. Find the word with maximum vowels in a sentence.
+10. Remove duplicate words from a sentence.
+
+Category 3: Array + Looping Logic (10 Qs)
+1. Find the maximum and minimum element in an array.
+2. Count how many positive, negative, and zero elements are in an array.
+3. Print all unique elements from an array.
+4. Reverse an array in-place.
+5. Shift all zeros to the end of the array.
+6. Count how many elements are even at an even index.
+7. Merge two arrays into one.
+8. Find the second largest element in an array.
+9. Rotate an array by one position to the right.
+10. Find the sum of all elements at odd indices.
+
+Category 4: Nested Logic & Pattern Flow (10 Qs)
+1. Print a multiplication table in a formatted grid (10x10).
+2. Print all pairs in an array whose sum equals a given number.
+3. Print all subarrays of a given array.
+4. Check if an array is sorted (ascending or descending).
+5. Count how many times a number appears consecutively in an array.
+6. Find all pairs of characters in a string that are the same (nested loop).
+7. Print pattern of increasing characters (A, AB, ABC...).
+8. Print Pascal’s triangle up to N rows.
+9. Generate Fibonacci series up to N using recursion.
+10. Print numbers in a spiral-like pattern (conceptual dry run).
+
+
+Category 5: Applied Reasoning & Real-Life Logic (10 Qs)
+1. Given marks of students, find how many passed (>= 40).
+2. Take age inputs and count how many are adults, minors, seniors.
+3. Validate a password (at least one uppercase, lowercase, digit, special char).
+4. Simulate a simple calculator using switch-case.
+5. Count how many times a coin lands on heads/tails (use random).
+6. Print frequency of each digit in a number.
+7. Find common elements between two arrays.
+8. Print characters that are common in two strings.
+9. Count how many prime numbers are there in an array.
+10. Print all palindromic words from a sentence.
