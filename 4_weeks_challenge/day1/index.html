@@ -3,25 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <header style="background-color:pink">
+    <header>
+        <h1>Gaurav's Portfolio</h1>
         <nav>
-            <a href="#">Skills</a>
-            <a href="#">Contact</a>
-            <a href="#">About me</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About me</a>
         </nav>
     </header>
-    <br><br>
+    
     <main>
-        <div style="background-color:blue">
-            <h3>About me</h3>
+        <section class="card" id="about">
+            <h2>About me</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit dignissimos explicabo nulla repudiandae numquam, dolor rerum similique nam deleniti unde! Sint eveniet voluptate culpa, deleniti animi sunt recusandae corporis enim nemo porro aspernatur odit optio blanditiis aperiam, unde earum assumenda. Iste at nemo ipsum. Iusto reiciendis rem deleniti reprehenderit expedita eos nobis, pariatur enim ea accusantium commodi consectetur quaerat repellendus possimus molestias at eligendi sequi dolor? Perferendis, voluptatum tempora. Inventore error quidem praesentium dolor aliquam velit optio, totam eum eius.</p>
             <img src="images/download.jpg" alt="Nature view">
-        </div>
-        <br><br>
-        <div  style="background-color:skyblue">
+        </section>
+
+        <section class="card" id='skills'>
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Django</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        
+        <section class="card" id='contact'>
+            <h2>Contact</h2>
             <form action="">
                 <div>
                     <label for="name">Name</label>
@@ -39,11 +51,10 @@
                 </div>
                 <button type="submit">Send Message</button>
             </form>
-        </div>
+        </section>
     </main>
-    <br><br>
-    <footer style="background-color:black">
-        <a href="https://github.com/Gauravbaraskar23">GitHub Link</a>
+    <footer >
+        <a href="https://github.com/Gauravbaraskar23">My GitHub Profile</a>
     </footer>
 </body>
 </html>
