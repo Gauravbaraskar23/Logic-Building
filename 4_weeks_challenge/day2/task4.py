@@ -1,9 +1,11 @@
 # Write one function with a required argument, a default argument, *args and **kwargs, in the correct order. Call it 3 different ways.
 
-def func(normal, *args, **kwargs):
-    print(f'Default argument is : {normal}')
+def func(name, role="student" ,*args, **kwargs):
+    print(f"name: {name}")
+    print(f"role: {role}")
+    print(f"args: {args}")
+    print(f"kwargs: {kwargs}")
     
-    print(f"positional arguments are : {args}")
-    print(f"Keyword arguments are : {kwargs}")
-
-func(2.5,3,4,5,6,6, name="Gaurav", city="Indore", age=22)
+func("Gaurav")
+func("Gaurav", "Developer", "Python", "Django")
+func("Gaurav", "Developer", "Python",city="Indore", age=22)
